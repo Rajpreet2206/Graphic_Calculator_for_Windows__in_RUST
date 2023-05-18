@@ -8,3 +8,16 @@ impl Rectangle{
         Self{width, height}
     }
 }
+
+struct Square{
+    length: i32;
+}
+
+impl Square{
+    pub fn new(length: i32) -> Self{
+        Self(length)
+    }
+    pub fn get_length(&self) -> i32{
+        self.length
+    }
+}
